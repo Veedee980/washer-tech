@@ -94,10 +94,10 @@ const Navbar: React.FC = () => {
       {menuOpen && (
         <div className="absolute top-full left-0 w-full bg-white border-t border-orange-100 shadow-md md:hidden z-50">
           <ul className="flex flex-col text-orange-500 font-medium p-4 space-y-3">
-            <li><a href="#" className="hover:text-orange-600 transition">Home</a></li>
-            <li><a href="#" className="hover:text-orange-600 transition">About Us</a></li>
-            <li><a href="#" className="hover:text-orange-600 transition">Services</a></li>
-            <li><a href="#" className="hover:text-orange-600 transition">Contact Us</a></li>
+            <li><Link href="/" className="hover:text-orange-600 transition">Home</Link></li>
+            <li><Link href="/about" className="hover:text-orange-600 transition">About Us</Link></li>
+            <li><Link href="/services" className="hover:text-orange-600 transition">Services</Link></li>
+            <li><Link href="/contact" className="hover:text-orange-600 transition">Contact Us</Link></li>
 
             {/* Mobile Search Box */}
             <li>
